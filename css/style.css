@@ -9,7 +9,16 @@ Body{
 h1,h2,h3,h4,h5,h6 {
 
     font-family:"Shrikhand";
+    ;
+}
+
+h1{
     font-size: 40pt;
+}
+
+h2{
+    text-align: center;
+
 }
 
 header{
@@ -24,9 +33,8 @@ header{
 }
 
 h1{
-    position: absolute;
-    left:50% ;
-    transform: translateX(-50%);
+    align-content: center;
+    text-align: center;
 
 }
 
@@ -51,3 +59,15 @@ h1{
     text-align: center ;
 }
 
+#hobbies ul li:nth-child(even){
+color: black;
+}
+#hobbies ul li:nth-child(odd){
+color: red;
+}
+
+#hobbies ul {
+
+    font-size: 20px;
+    
+}
