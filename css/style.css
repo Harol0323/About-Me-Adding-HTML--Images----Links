@@ -106,5 +106,11 @@ color: red;
     background-color:#4A4129;
     border: 3px solid #2449AD;
 
+}
+
+#article p,div,h2{
+
+    border: 3px solid black;
+    background-color:#4A4129;
 
 }
